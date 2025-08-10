@@ -18,9 +18,60 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 
-<body>
-    <header>
+<body class="mx-auto">
+    <header class="bg-[#fff9f4] md:px-36">
+        <nav class="text-sora">
+            <div class="navbar flex flex-row-reverse justify-between px-2.5 md:flex-row">
+                <div class="md:navbar-start">
+                    <div class="dropdown relative">
+                        <div tabindex="0" role="button" class="lg:hidden">
+                            <i class="fa-solid fa-bars text-3xl"></i>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content absolute right-0  rounded-box z-10 mt-3 w-52 p-2 shadow bg-[#fff9f4]">
+                            <li><a>Find a pet</a></li>
+                            <li><a>Breeds</a></li>
+                            <li><a>Contact us</a></li>
+                        </ul>
+                    </div>
+                    <!-- chat gpt one -->
+                    <!-- <div class="dropdown relative">
+                        <div tabindex="0" role="button" class="lg:hidden">
+                            <i class="fa-solid fa-bars text-3xl"></i>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content absolute right-0 bg-base-100 rounded-box z-10 mt-3 w-52 p-2 shadow bg-[#fff9f4]">
+                            <li><a>Find a pet</a></li>
+                            <li><a>Breeds</a></li>
+                            <li><a>Contact us</a></li>
+                        </ul>
+                    </div> -->
 
+                    <div class="md:flex md:items-center gap-3.5 hidden md:block">
+                        <div>
+                            <img src="assets/logo-header.png" alt="">
+                        </div>
+                        <a class="text-2xl">Browse<span class="text-[#FFDC26]">4</span>Pets</a>
+                    </div>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a>Find a pet</a></li>
+                        <li><a>Breeds</a></li>
+                        <li><a>Contact us</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end md:flex md:items-center gap-5 hidden md:block">
+                    <a href=""><i class="fa-solid fa-bell"></i></a>
+                    <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+                    <a class="btn text-xl font-normal">Login</a>
+                    <a class="btn text-xl font-normal">Register</a>
+                </div>
+                <div class="md:hidden block">
+                    <img src="assets/logo-header.png" alt="">
+                </div>
+            </div>
+        </nav>
     </header>
     <main>
 
