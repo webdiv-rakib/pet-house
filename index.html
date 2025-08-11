@@ -20,7 +20,7 @@
 
 <body class="mx-auto">
     <header class="bg-[#fff9f4] md:px-36">
-        <nav class="text-sora">
+        <nav class="sora">
             <div class="navbar flex flex-row-reverse justify-between px-2.5 md:flex-row">
                 <div class="md:navbar-start">
                     <div class="dropdown relative">
@@ -62,8 +62,13 @@
                     </ul>
                 </div>
                 <div class="navbar-end md:flex md:items-center gap-5 hidden md:block">
-                    <a href=""><i class="fa-solid fa-bell"></i></a>
-                    <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+                    <a href=""
+                        class="inline-block transition-transform duration-200 hover:-translate-x-1 hover:translate-x-1">
+                        <i class="fa-solid fa-bell"></i>
+                    </a>
+                    <a href="" class="inline-block transition-transform duration-300 hover:translate-x-2">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
                     <a class="btn text-xl font-normal">Login</a>
                     <a class="btn text-xl font-normal">Register</a>
                 </div>
@@ -74,7 +79,21 @@
         </nav>
     </header>
     <main>
-
+        <section class="px-36 mx-auto adlam mt-20">
+            <!-- Banner section -->
+            <div class="relative">
+                <div class="absolute top-30">
+                    <h1 class="text-5xl">Pamper Your Pet,<br>Because They Deserve the<br>Bes</h1>
+                    <p class="text-sora mt-4">Discover a world of treats, toys, and essentials handpicked for<br>your
+                        furry friends. Shop now and
+                        make tails wag with joy!</p>
+                    <button class="btn mt-6">Find a pet</button>
+                </div>
+                <div class="flex items-center justify-center">
+                    <img src="assets/cat-big.png" alt="">
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
 
