@@ -11,3 +11,11 @@
     font-family: "ADLaM Display", system-ui;
     font-weight: 400;
 }
+
+.first-offer {
+    background: linear-gradient(134.71deg, rgba(248, 204, 251, 1), rgba(172, 210, 253, 1) 100%);
+}
+
+.second-offer {
+    background: linear-gradient(134.71deg, rgba(255, 249, 244, 1), rgba(249, 223, 138, 1) 100%);
+}
